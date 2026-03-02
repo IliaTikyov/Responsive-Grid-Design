@@ -36,6 +36,8 @@ main {
   display: grid;
   place-items: center;
   margin-top: 3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 main div {
@@ -44,8 +46,6 @@ main div {
   border-top: solid 6px;
   border-radius: 5%;
   margin-bottom: 2em;
-  margin-left: 2em;
-  margin-right: 2em;
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 1.5em;
@@ -62,12 +62,17 @@ main div h2 {
 main div p {
   color: hsl(212, 6%, 44%);
   font-weight: 400;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 main div img {
   height: 25%;
   width: 25%;
+  display: flex;
+  margin-left: auto;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  display: block;
 }
 
 main div:nth-child(1) {
